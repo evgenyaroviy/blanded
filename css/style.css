@@ -32,12 +32,32 @@ body {
   font-family: "Inter", sans-serif;
   color: var(--main-color);
 }
-
 .container {
-  width: 1280px;
   margin: 0 auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 
 a {
@@ -50,8 +70,8 @@ ul {
 
 .hero {
   background-color: var(--background-section-color);
-  padding-top: 12px;
-  padding-bottom: 158px;
+  padding-top: 20px;
+  padding-bottom: 122px;
 }
 
 .logo {
@@ -66,36 +86,38 @@ ul {
   color: var(--main-color);
 }
 .menu {
-  display: flex;
+  display: none;
   align-items: center;
   gap: 40px;
 }
 
 .main-title {
-  font-size: 40px;
-  line-height: calc(48 / 40);
-  margin-top: 147px;
+  font-size: 24px;
+  line-height: calc(29 / 24);
+  margin-top: 182px;
   margin-bottom: 12px;
 }
 
 .main-subtitle {
-  font-size: 20px;
-  line-height: calc(24 / 20);
-  margin-bottom: 28px;
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  margin-bottom: 20px;
 }
 
 .hero-list {
+  margin-bottom: 40px;
   font-size: 16px;
   line-height: calc(19 / 16);
   margin-bottom: 60px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 16px;
 }
 
 .hero-txt {
   font-weight: 700;
-  line-height: calc(19 / 16);
+  font-size: 12px;
+  line-height: calc(15 / 12);
   display: flex;
   align-items: center;
   gap: 4px;
@@ -109,6 +131,8 @@ ul {
 }
 
 .hero-btn {
+  display: block;
+
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -120,6 +144,7 @@ ul {
 }
 
 .header {
+  padding: 14px 20px;
   background-image: linear-gradient(
     90.03deg,
     var(--header-grad-2) -1.97%,
@@ -133,31 +158,35 @@ ul {
   justify-content: space-between;
 }
 
+.features {
+  padding: 40px 0;
+}
+
 .features-title {
-  font-size: 24px;
-  line-height: calc(29 / 24);
+  font-size: 20px;
+  line-height: calc(24 / 20);
   text-align: center;
   color: var(--second-color);
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   text-transform: uppercase;
   padding-top: 100px;
 }
 
 .features-desc {
   font-weight: 500;
-  font-size: 16px;
-  line-height: calc(24 / 16);
+  font-size: 14px;
+  line-height: calc(24 / 14);
   text-align: center;
   color: var(--second-color);
-  width: 886px;
   margin: 0 auto;
-  margin-bottom: 80px;
 }
 
 .features-list {
+  margin-bottom: 40px;
+  margin-top: 40px;
   display: flex;
-  gap: 80px;
-  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 24px;
   color: var(--second-color);
 }
 
@@ -179,8 +208,89 @@ ul {
 }
 
 .features-container {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
+}
 
+.marketing {
+  padding-top: 40px;
+  padding-bottom: 89px;
+  background: #06071b;
+}
+
+.marketing-title {
+  margin-bottom: 24px;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.marketing-txt {
+  margin-bottom: 105px;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  text-align: center;
+}
+
+.team {
+  padding-top: 40px;
+}
+
+.team-title {
+  margin-bottom: 24px;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+
+.team-txt {
+  margin-bottom: 40px;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  text-align: center;
+  color: #000000;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.team-item {
+  padding-top: 16px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: linear-gradient(
+      312.87deg,
+      rgba(0, 197, 235, 0.5) -0.2%,
+      rgba(181, 68, 254, 0.5) 112.66%
+    ),
+    #06071b;
+  backdrop-filter: blur(17.5px);
+  border-radius: 15px;
+}
+
+.team-thumb {
+  margin-top: 16px;
+}
+
+.team-name {
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  text-align: center;
+  color: #ffffff;
+}
+
+.team-thumb-job {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  text-align: center;
+  color: #ffffff;
+}
+
+.team-img {
+  border-radius: 15px;
+  margin: 0 auto;
 }

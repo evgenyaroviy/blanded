@@ -9,7 +9,8 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
       rel="stylesheet"
-    /><link
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
@@ -23,30 +24,34 @@
     <main>
       <!-- Hero -->
       <section class="hero">
+        <header class="header">
+          <nav class="navigation">
+            <a class="logo" href="/">Mobileapp</a>
+            <ul class="menu">
+              <li><a href="">home</a></li>
+              <li><a href="">features</a></li>
+              <li><a href="">team</a></li>
+              <li><a href="">testimonials</a></li>
+              <li><a href="">contact</a></li>
+            </ul>
+          </nav>
+        </header>
         <div class="container">
-          <header class="header">
-            <nav class="navigation">
-              <a class="logo" href="/">Mobileapp</a>
-              <ul class="menu">
-                <li><a href="">home</a></li>
-                <li><a href="">features</a></li>
-                <li><a href="">team</a></li>
-                <li><a href="">testimonials</a></li>
-                <li><a href="">contact</a></li>
-              </ul>
-            </nav>
-          </header>
           <h1 class="main-title">Introducing Mobileapp</h1>
           <h2 class="main-subtitle">Maecenas vitae tellus sapien. Prasent</h2>
           <ul class="hero-list">
             <li><p class="hero-txt">semper scelerisque tristique a enim</p></li>
-            <li><p class="hero-txt">Integer ut mattis nulla, eget vehicula elit</p></li>
+            <li>
+              <p class="hero-txt">
+                Integer ut mattis nulla, eget vehicula elit
+              </p>
+            </li>
             <li><p class="hero-txt">Prasent rutrum ac nunc et</p></li>
           </ul>
           <button class="hero-btn" type="button">Download</button>
         </div>
       </section>
-      <section>
+      <section class="features">
         <div class="container">
           <h2 class="features-title">key features</h2>
           <p class="features-desc">
@@ -105,10 +110,10 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="marketing">
         <div class="container">
-          <h2>watch the video</h2>
-          <p>
+          <h2 class="marketing-title">watch the video</h2>
+          <p class="marketing-txt">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             fringilla fringilla nisl congue congue. Maecenas nec condimentum
             libero, at elementum mauris. Phasellus eget nisi dapibus, ultricies
@@ -118,59 +123,59 @@
           <img src="./images/iPhone.png" alt="iphone" width="501" />
         </div>
       </section>
-      <section>
+      <section class="team">
         <div class="container">
-          <h2>our team</h2>
-          <p>
+          <h2 class="team-title">our team</h2>
+          <p class="team-txt">
             Nunc vulputate nibh sed congue facilisis. Curabitur posuere
             scelerisque neque. In sit amet lectus non lacus sollicitudin cursus a
             vitae felis. Praesent luctus mi quis nisi interdum eleifend.
           </p>
-          <ul>
-            <li>
-              <img
+          <ul class="team-list">
+            <li class="team-item">
+              <img class="team-img"
                 src="./images/managing-direcor.jpg"
                 alt="managing director"
                 width="264"
               />
-              <div>
-                <h3>Jon Doe</h3>
-                <p>managing director</p>
+              <div class="team-thumb">
+                <h3 class="team-name">Jon Doe</h3>
+                <p class="team-thumb-job">managing director</p>
               </div>
             </li>
-            <li>
-              <img
+            <li class="team-item">
+              <img class="team-img"
                 src="./images/lead-designer.jpg"
                 alt="lead-designer"
                 width="264"
               />
-              <div>
-                <h3>Jane Doe</h3>
-                <p>lead designer</p>
+              <div class="team-thumb">
+                <h3 class="team-name">Jane Doe</h3>
+                <p class="team-thumb-job">lead designer</p>
               </div>
             </li>
-            <li>
-              <img
+            <li class="team-item">
+              <img class="team-img"
                 src="./images/lead-developer.jpg"
                 alt="lead developer"
                 width="264"
               />
-              <div>
-                <h3>Jane Doe</h3>
-                <p>lead developer</p>
+              <div class="team-thumb">
+                <h3 class="team-name">Jane Doe</h3>
+                <p class="team-thumb-job">lead developer</p>
               </div>
             </li>
-            <li>
-              <img src="./images/ui-designer.jpg" alt="ui designer" width="264" />
-              <div>
-                <h3>Jon doe</h3>
-                <p>ui designer</p>
+            <li class="team-item">
+              <img class="team-img" src="./images/ui-designer.jpg" alt="ui designer" width="264" />
+              <div class="team-thumb">
+                <h3 class="team-name">Jon doe</h3>
+                <p class="team-thumb-job">ui designer</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
-      <section>
+      <!-- <section>
         <div class="container">
           <h2>what our costumer's say</h2>
           <img
@@ -189,9 +194,9 @@
             gravida massa et ante pulvinar, id
           </p>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer>
+    <!-- <footer>
       <div class="container">
         <h2>contact us</h2>
         <h3>Get in touch with us</h3>
@@ -206,6 +211,6 @@
           </ul>
         </address>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
