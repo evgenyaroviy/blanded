@@ -1,0 +1,288 @@
+@media screen and (min-width: 768px) {
+
+.hero {
+  padding-bottom: 143px;
+}
+
+.menu {
+  display: flex;
+  text-transform: uppercase;
+}
+
+.main-title {
+  font-size: 40px;
+  line-height: calc(48 / 40);
+  margin-top: 60px;
+}
+
+.main-subtitle {
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  margin-bottom: 28px;
+}
+
+.hero-list {
+  margin-bottom: 60px;
+  gap: 12px;
+}
+
+.hero-txt {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+}
+
+.header {
+  padding: 14px 32px;
+}
+
+
+.features {
+  padding: 40px 0 80px;
+}
+
+.features-title {
+  font-size: 24px;
+  line-height: calc(29 / 24);
+  padding-top: 0;
+}
+
+.features-desc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+}
+
+.features-list {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    color: var(--second-color);
+}
+
+.marketing {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.marketing-title {
+  margin-bottom: 24px;
+  font-size: 29px;
+  line-height: calc(24 / 29);
+}
+
+.marketing-txt {
+  margin-bottom: 120px;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+}
+
+.marketing-img {
+    margin: 0 auto;
+}
+
+.team {
+  padding-top: 40px;
+}
+
+.team-title {
+  margin-bottom: 24px;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+
+.team-txt {
+  margin-bottom: 40px;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  text-align: center;
+  color: #000000;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.team-item {
+  padding-top: 16px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: linear-gradient(
+      312.87deg,
+      rgba(0, 197, 235, 0.5) -0.2%,
+      rgba(181, 68, 254, 0.5) 112.66%
+    ),
+    #06071b;
+  backdrop-filter: blur(17.5px);
+  border-radius: 15px;
+}
+
+.team-thumb {
+  margin-top: 16px;
+}
+
+.team-name {
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  text-align: center;
+  color: #ffffff;
+}
+
+.team-thumb-job {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  text-align: center;
+  color: #ffffff;
+}
+
+.team-img {
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.slider {
+  padding: 40px 0;
+}
+
+.slider-title {
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-align: center;
+  color: #000000;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.slider-img {
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.slider-name {
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  color: #000000;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.slider-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  text-align: center;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.slider-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  text-align: center;
+  color: #000000;
+}
+
+.footer {
+  background-color: var(--background-section-color);
+  color: var(--main-color);
+  padding-top: 40px;
+  padding-bottom: 22px;
+}
+
+.footer-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  color: var(--main-color);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer-content {
+  width: 100%;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 177;
+  text-align: center;
+}
+
+.contacts {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: var(--main-color);
+  font-style: normal;
+}
+
+.input {
+  width: 100%;
+  padding: 11px 0 12px 8px;
+  border-radius: 5px;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.textarea {
+  resize: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 162px;
+  padding-top: 12px;
+  padding-left: 8px;
+  margin-top: 20px;
+}
+
+.footer-wrapper {
+  flex-direction: column-reverse;
+  display: flex;
+  gap: 40px;
+}
+
+.form-button {
+  display: block;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--main-color);
+  padding: 11px 59px;
+  border-radius: 5px;
+  background-image: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+    
+}

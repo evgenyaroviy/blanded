@@ -294,3 +294,141 @@ ul {
   border-radius: 15px;
   margin: 0 auto;
 }
+
+.slider {
+  padding: 40px 0;
+}
+
+.slider-title {
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-align: center;
+  color: #000000;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.slider-img {
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.slider-name {
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  color: #000000;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.slider-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  text-align: center;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.slider-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  text-align: center;
+  color: #000000;
+}
+
+.footer {
+  background-color: var(--background-section-color);
+  color: var(--main-color);
+  padding-top: 40px;
+  padding-bottom: 22px;
+}
+
+.footer-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  color: var(--main-color);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer-content {
+  width: 100%;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 177;
+  text-align: center;
+}
+
+.contacts {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: var(--main-color);
+  font-style: normal;
+}
+
+.input {
+  width: 100%;
+  padding: 11px 0 12px 8px;
+  border-radius: 5px;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.textarea {
+  resize: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 162px;
+  padding-top: 12px;
+  padding-left: 8px;
+  margin-top: 20px;
+}
+
+.footer-wrapper {
+  flex-direction: column-reverse;
+  display: flex;
+  gap: 40px;
+}
+
+.form-button {
+  display: block;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--main-color);
+  padding: 11px 59px;
+  border-radius: 5px;
+  background-image: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
+  margin: 0 auto;
+  margin-top: 20px;
+}
